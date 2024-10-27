@@ -1,6 +1,8 @@
 # Prolog exercises
 
-## Install swi-prolog
+### Paso 1 - Install swi-prolog
+
+## Run Prolog program
 
 ```sh
 swipl -s file.pl
@@ -119,7 +121,7 @@ puede_comprar_a_pie(lucia, Fruta).
 ¿Qué noble es un rufián?
 
 ```sh
-puede_comprar_a_pie(lucia, Fruta).
+noble(X), rufian(X).
 ```
 
 ¿Quién es susceptible de ser raptada por Romeo?
